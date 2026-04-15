@@ -22,29 +22,31 @@ Project Workflow:
 Firstly started understanding the data. Data looks simple but key challenge was it has high dimensionality and mixed granularity involved like multiple indicators (GDP, GVA, GNI, NDP, GFCF, GCF, GNDI etc.), Price types (Current vs Constant), Institutional sectors, industries, subindustries, Revision types (Advance, Revised, Final). 
 After understanding granularity, dataset is imported in goggle collab for cleaning, manipulation and analysis using python libraries. Null values are not removed here because each indicator, address different industry, institutional sector and sub industry or it address overall year values. Data set is cleaned, by removing duplicates, and by removing repeated indicator labels in institutional sector column. In revised versions of estimates for each year, we followed revision priority logic to ensure accuracy. This ensured that analysis used most reliable estimates. Feature engineered column named 'Inflation effect' to know inflation impact. After that trend analysis is done by visualising trends for different indicators. And pivot tables are created to understand Institutional sectors, industries, subindustries trend. Analysis approach followed a top-down framework:
 
-1. Economic Growth
+1. Economic Growth:
 
-GDP trend
-Growth normalization (base effect)
+GDP trend, GDP growth rate
 
-2. Demand-Side Analysis
+3. Demand-Side Analysis
 
 PFCE --> consumer demand
 GFCE --> government role
 
-3. External Sector
+3. External Sector:
+
 Imports vs Exports
 Primary income
 
-4. Investment & Savings
+4. Investment & Savings:
+
 Capital formation
 Savings pattern
 
-5. Sectoral Performance
+5. Sectoral Performance:
+
 GVA contribution
 Industry growth
 
-6. Inflation Analysis
+6. Inflation Analysis:
 
 Industry-level inflation impact
 Real vs nominal gap
