@@ -24,31 +24,38 @@ After understanding granularity, dataset is imported in goggle collab for cleani
 
 1. Economic Growth:
 
-GDP trend, GDP growth rate
+GDP trend
+
+GDP growth rate
 
 3. Demand-Side Analysis
 
 PFCE --> consumer demand
+
 GFCE --> government role
 
 3. External Sector:
 
 Imports vs Exports
+
 Primary income
 
 4. Investment & Savings:
 
 Capital formation
+
 Savings pattern
 
 5. Sectoral Performance:
 
 GVA contribution
+
 Industry growth
 
 6. Inflation Analysis:
 
 Industry-level inflation impact
+
 Real vs nominal gap
 
 To bring all of this together, I built an interactive Power BI dashboard after python analysis structured around:
